@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/item_bg_rcv"
+    android:orientation="horizontal"
+    android:gravity="center|left"
+    android:layout_marginBottom="5dp">
+
+    <CheckBox
+        android:id="@+id/chk_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoc React Native "
+        android:textSize="20sp"/>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginLeft="100dp">
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+         <ImageView
+             android:id="@+id/iv_edit"
+             android:layout_width="wrap_content"
+             android:layout_height="30dp"
+             android:layout_gravity=""
+             android:layout_marginTop="3dp"
+             android:layout_marginRight="5dp"
+             android:background="@drawable/baseline_mode_edit_24" />
+
+         <ImageView
+             android:id="@+id/iv_delete"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="5dp"
+             android:background="@drawable/outline_close_24" />
+     </LinearLayout>
+
+      <TextView
+          android:id="@+id/tv_date"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="3/07/2023"
+          android:textSize="15sp"
+          android:textStyle="italic"
+          android:layout_marginTop="5dp"/>
+
+  </LinearLayout>
+
+
+</LinearLayout>
